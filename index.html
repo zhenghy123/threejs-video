@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>threejs-video-demo</title>
+
+    <style>
+      html,
+      body {
+        height: 100%;
+        width: 100%;
+      }
+
+      .container {
+        height: 100%;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>hello 360 video</h1>
+    <div id="container" class="container"></div>
+  </body>
+</html>
+<script src="./three.js"></script>
+<script src="./index.js"></script>
+
+<script>
+  window.onload = function () {
+    this.createVideo();
+  };
+</script>
